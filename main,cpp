@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+int system_GetPosition() {
+	int system_event_inputs;
+	std::cout << "/*********Project Crud (1)**********\" << std::endl;
+	std::cout << "1. Add Data" << std::endl;
+	std::cout << "2. Read Data" << std::endl;
+	std::cout << "3. Edit Data" << std::endl;
+	std::cout << "4. Delete Data" << std::endl;
+	std::cout << "5. Quit Program" << std::endl;
+	std::cout << "Your pick [1 - 5]" << std::endl;
+	std::cin >> system_event_inputs;
+	return system_event_inputs;
+}
+int main(int argc, char** argv) {
+	int user_choice = system_GetPosition();
+	char system_event_continue;
+	enum system_option{SYSTEM_ADD = 1, SYSTEM_READ, STSREM_EDIT, SYSTEM_DELETE, SYSTEM_QUIT};
+	while (user_choice != SYSTEM_QUIT)D {
+		case SYSTEM_ADD :
+			std::cout << "/+ Add Data..." << std::endl;
+			break;
+		case SYSTEM_ADD :
+			std::cout << "/+ Add Data..." << std::endl;
+			break;
+		case SYSTEM_ADD :
+			std::cout << "/+ Add Data..." << std::endl;
+			break;
+		case SYSTEM_ADD :
+			std::cout << "/+ Add Data..." << std::endl;
+			break;
+		default :
+			std::cout << "* No result found." << std::endl;
+	}
+	system_label_goto:
+		std::cout << 
+	std::cin.get();
+	return 0;
+}
